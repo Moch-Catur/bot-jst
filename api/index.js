@@ -1,8 +1,18 @@
+
+
+
+
+
+
+
+
+
 var express = require('express');
 var r = express.Router();
 
 // load pre-trained model
-const model = require('./sdk/model.js');
+const model = require('./sdk/model.js'); //predict
+
 
 // Bot Setting
 const TelegramBot = require('node-telegram-bot-api');
