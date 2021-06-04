@@ -40,4 +40,5 @@ async function predict(data){
 module.exports = {
     predict: predict 
 }
+
   
